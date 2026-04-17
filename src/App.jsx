@@ -144,7 +144,7 @@ function getScore(d) {
 }
 
 function scoreColor(s) {
-  return s >= 80 ? "var(--success)" : s >= 50 ? "#f59e0b" : "var(--error)";
+  return s >= 80 ? "var(--success)" : s >= 50 ? "#ff953e" : "var(--error)";
 }
 
 async function fetchMicrolink(rawUrl) {
@@ -684,8 +684,8 @@ export default function App() {
       </div>
 
       <footer className="credit">
-        <a className="creditLink" href="https://instagram.com/berkindev" target="_blank" rel="noreferrer">
-          Coded by @berkindev
+        <a className="creditLink" href="#" rel="noreferrer">
+          Coded by @Selvaganapathycoder
         </a>
       </footer>
     </div>
